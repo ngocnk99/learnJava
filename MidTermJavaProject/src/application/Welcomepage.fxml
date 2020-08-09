@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="700.0" maxWidth="1100.0" prefHeight="700.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="8.0" layoutY="14.0" maxHeight="700.0" maxWidth="1100.0" prefHeight="700.0" prefWidth="1100.0">
+         <children>
+            <ImageView fitHeight="714.0" fitWidth="1108.0" layoutX="-5.0" layoutY="-12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="264.0" layoutY="246.0" text="Object Oriented Programming Practice Class" textFill="#3638bc">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="264.0" layoutY="281.0" prefHeight="30.0" prefWidth="287.0" text="Teacher: Nguyen Nhat Hai">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="264.0" layoutY="311.0" text="Team 2: ">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font></Label>
+            <Label layoutX="298.0" layoutY="341.0" text="▶ Nguyen Ngoc          -20174996">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="297.0" layoutY="371.0" text="▶ Mai Ngoc Khang    - 20176791">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="298.0" layoutY="401.0" text="▶Nguyen Van Khanh -20176893">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
